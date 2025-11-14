@@ -100,8 +100,8 @@ def run_eda_safe(file_obj):
 def llm_narrative(summary_path):
 
     client = OpenAI(
-        base_url="Api_Key",
-        api_key="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"
+        base_url="https://integrate.api.nvidia.com/v1",
+        api_key="API_KEY"
     )
 
     with open(summary_path, "r") as f:
